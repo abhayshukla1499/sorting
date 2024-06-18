@@ -1,0 +1,22 @@
+#container{
+    height:500px;
+    width: 1000px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-around;
+    border: 2px;
+    border-color: blue;
+}
+    
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.bar{
+    max-height: 450px;
+    width: 50px;
+    background-color: black;
+    margin: 1px;
+}
