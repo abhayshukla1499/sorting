@@ -54,7 +54,7 @@ function animate(swaps){
     showBars([i,j]);
     setTimeout(function(){
         animate(swaps);
-    },200);
+    },500);
 }
 
 
